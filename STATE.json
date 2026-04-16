@@ -1,0 +1,10 @@
+{
+  "system": {
+    "power_state": "IDLE",
+    "fan_profile": "1"
+  },
+  "A_task": {
+    "active": true,
+    "priority": "high"
+  }
+}
