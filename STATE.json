@@ -1,10 +1,19 @@
 {
   "system": {
-    "power_state": "IDLE",
-    "fan_profile": "1"
-  },
-  "A_task": {
-    "active": true,
-    "priority": "high"
+    "pi4": {
+      "power_state": "IDLE",
+      "tasks": {
+        "ba_server": {
+          "enabled": false,
+          "state": "off",
+          "default_rate": "fast"
+        },
+
+        "docker_vm": {
+          "enabled": true,
+          "state": "off"
+        }
+      }
+    }
   }
 }
